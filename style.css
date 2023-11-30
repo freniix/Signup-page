@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to top left, cyan, blue);
+}
+
+.signup-section{
+    /* height: 400px; */
+ width: 400px;
+ /* border: 1px solid black; */
+ border-radius: 10px;
+ position: relative;
+ margin: 0px auto;
+ top: 25vh;
+ box-shadow: 2px 2px;
+z-index: 2;
+ /* background: linear-gradient(to top left, aqua, rgb(217, 0, 255)); */
+ background-color:rgba(255, 255, 255, 0.7);
+ padding: 20px 40px;
+ /* backdrop-filter: blur(50px); */
+}
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    padding: 0px 0px 10px 0px;
+    color:#212121 ;
+    text-shadow: 1px 1px white;
+}
+label{
+    margin-left: 8px;
+    text-shadow: 1px 1px rgb(255, 255, 255);
+    
+}
+p{
+    margin: 5px;
+}
+input{ 
+    display: block;
+    width: 300px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 9px;
+padding: 0px 20px;
+    margin: 5px;
+
+    
+
+}
+input[type="email"]{
+    position: relative;
+    left: 5px;
+
+}
+input[type="submit"]{
+    width: 150px;
+    position: relative;
+    left: 25%;
+    background-color: rgb(8, 76, 177);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+
+
+}
+::placeholder{
+    color: rgb(1, 1, 1);
+    text-align: center;
+}
+input[type="submit"]:hover{
+    background-color:blue ;
+
+}
+a:hover{
+    color:blue ;
+}
+a{
+    text-decoration:none ;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    margin-top: 15px;
+}
+.circle{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+   background: linear-gradient(to top right,#ffffff33, #ffffffff);
+   position: absolute;
+}
+.c1{
+    bottom:100px;
+    left: 10px;
+
+}
+.c2{
+    top: 100px;
+    right: 10px;
+    /* float: left; */
+}
